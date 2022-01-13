@@ -13,9 +13,4 @@ import io.quarkus.runtime.LaunchMode;
 
 @Mojo(name = "generate-app", defaultPhase = LifecyclePhase.PACKAGE, requiresDependencyResolution = ResolutionScope.COMPILE_PLUS_RUNTIME, threadSafe = true)
 public class GenerateAppMojo extends BuildMojo {
-
-    @Override
-    protected List<Dependency> forcedDependencies(LaunchMode mode) {
-        return Collections.emptyList();
-    }
 }

@@ -14,7 +14,7 @@
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
 
-        <quarkus.version>999-SNAPSHOT</quarkus.version>
+        <quarkus.version>2.6.0.Final</quarkus.version>
         
         <maven.version>3.8.3</maven.version>
         <maven-plugin-tools.version>3.6.1</maven-plugin-tools.version>
